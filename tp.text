@@ -1,0 +1,57 @@
+
+<html>
+<link rel="stylesheet" type="text/css" href="tp.css">
+
+
+
+<body>
+
+<div class="header"> 
+ <div class="row">
+ <div class="col-md-4">
+<img src="http://icons.iconarchive.com/icons/fasticon/happy-bus/256/bus-red-icon.png" alt="Image of BUS" style="width: 84px;height: 62px;"></img>
+  <p1>Bla Bla Bus</p1>
+ 
+  
+ 
+  </div>
+     <div class="col-md-8">
+    <form>
+ 
+<input type="email" id= "username" placeholder=" Email" required pattern="[a-zA-Z0-9!#$%&amp;'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-]"> 
+ 
+<input type="password" id="pass" placeholder=" Password" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+    <input type="submit" id="signin" value="Sign in">
+  </form>
+  </div>
+  </div>
+  </div>
+  
+
+
+ <div class="sign_up" > 
+       <p >New User?</p>
+  <form class="sign_form  " > 
+ 
+<input type="text" id="name" placeholder=" Enter your Full Name" autofocus="true" required pattern="[A-Za-z]+\s[A-Za-z]+">
+    
+  
+<input type="tel" id="mobile" placeholder=" 000-000-0000" autofocus="true" required pattern="/[7|8|9]\[0-9]d{9}$/">
+    
+ 
+<input type="email" id="email" placeholder=" Enter vaild email address" required pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-]+*$/">
+    
+ 
+<input type="password" id="password" placeholder=" At least 8 characters" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+    
+
+<input type="password" id="Confirm Password" placeholder=" Retype Password" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+
+
+<input type="submit" id="signup" value="Sign Up">
+       
+</form>
+</div>   
+  </div>
+  </body>
+<\html>
